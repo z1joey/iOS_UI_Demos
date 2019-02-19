@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  iOS_UI_Demos
+//  ToolBarDemo
 //
 //  Created by Yi Zhang on 2019/2/20.
 //  Copyright © 2019 Yi Zhang. All rights reserved.
