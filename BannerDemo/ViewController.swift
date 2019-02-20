@@ -41,11 +41,9 @@ extension Bundle
         // path返回Nil
         // TODO: 修复bug
         var path = self.path(forResource: forResource! + scaleStr!, ofType: ofType)
-        print("path: \(path)")
         if path == nil {
             path = self.path(forResource: forResource, ofType: ofType)
         }
-        print("path: \(path)")
         return path
     }
 }
