@@ -30,6 +30,13 @@
 		65680095221C914A009EEC96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65680093221C914A009EEC96 /* LaunchScreen.storyboard */; };
 		656800A3221CA1BC009EEC96 /* ToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656800A2221CA1BC009EEC96 /* ToolBar.swift */; };
 		656800A5221CA1CC009EEC96 /* ToolBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 656800A4221CA1CC009EEC96 /* ToolBar.xib */; };
+		65F57302221EE80E007D7541 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F57301221EE80E007D7541 /* AppDelegate.swift */; };
+		65F57304221EE80E007D7541 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F57303221EE80E007D7541 /* ViewController.swift */; };
+		65F57309221EE810007D7541 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65F57308221EE810007D7541 /* Assets.xcassets */; };
+		65F5730C221EE810007D7541 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65F5730A221EE810007D7541 /* LaunchScreen.storyboard */; };
+		65F57312221EE875007D7541 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65F57311221EE875007D7541 /* ViewController.xib */; };
+		65F57314221EF094007D7541 /* TestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F57313221EF094007D7541 /* TestCell.swift */; };
+		65F57316221EF0C6007D7541 /* TestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65F57315221EF0C6007D7541 /* TestCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +70,15 @@
 		65680096221C914A009EEC96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		656800A2221CA1BC009EEC96 /* ToolBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBar.swift; sourceTree = "<group>"; };
 		656800A4221CA1CC009EEC96 /* ToolBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ToolBar.xib; sourceTree = "<group>"; };
+		65F572FF221EE80E007D7541 /* XibTableDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XibTableDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65F57301221EE80E007D7541 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65F57303221EE80E007D7541 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65F57308221EE810007D7541 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65F5730B221EE810007D7541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65F5730D221EE810007D7541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65F57311221EE875007D7541 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		65F57313221EF094007D7541 /* TestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCell.swift; sourceTree = "<group>"; };
+		65F57315221EF0C6007D7541 /* TestCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +104,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		65680085221C9149009EEC96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F572FC221EE80E007D7541 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -143,6 +166,7 @@
 				655F19C0221DA0AB00CDEF66 /* BannerDemo */,
 				655F19DC221DA80C00CDEF66 /* TestBundle */,
 				6527AA38221DCD8800144C80 /* UserDemo */,
+				65F57300221EE80E007D7541 /* XibTableDemo */,
 				65680070221C8F0C009EEC96 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -154,6 +178,7 @@
 				655F19BF221DA0AB00CDEF66 /* BannerDemo.app */,
 				655F19DB221DA80C00CDEF66 /* TestBundle.bundle */,
 				6527AA37221DCD8800144C80 /* UserDemo.app */,
+				65F572FF221EE80E007D7541 /* XibTableDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -171,6 +196,21 @@
 				656800A4221CA1CC009EEC96 /* ToolBar.xib */,
 			);
 			path = ToolBarDemo;
+			sourceTree = "<group>";
+		};
+		65F57300221EE80E007D7541 /* XibTableDemo */ = {
+			isa = PBXGroup;
+			children = (
+				65F57301221EE80E007D7541 /* AppDelegate.swift */,
+				65F57303221EE80E007D7541 /* ViewController.swift */,
+				65F57311221EE875007D7541 /* ViewController.xib */,
+				65F57308221EE810007D7541 /* Assets.xcassets */,
+				65F5730A221EE810007D7541 /* LaunchScreen.storyboard */,
+				65F5730D221EE810007D7541 /* Info.plist */,
+				65F57313221EF094007D7541 /* TestCell.swift */,
+				65F57315221EF0C6007D7541 /* TestCell.xib */,
+			);
+			path = XibTableDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +284,23 @@
 			productReference = 65680088221C9149009EEC96 /* ToolBarDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		65F572FE221EE80E007D7541 /* XibTableDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65F57310221EE810007D7541 /* Build configuration list for PBXNativeTarget "XibTableDemo" */;
+			buildPhases = (
+				65F572FB221EE80E007D7541 /* Sources */,
+				65F572FC221EE80E007D7541 /* Frameworks */,
+				65F572FD221EE80E007D7541 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XibTableDemo;
+			productName = XibTableDemo;
+			productReference = 65F572FF221EE80E007D7541 /* XibTableDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -266,6 +323,9 @@
 					65680087221C9149009EEC96 = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					65F572FE221EE80E007D7541 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 				};
 			};
 			buildConfigurationList = 6568006A221C8F0C009EEC96 /* Build configuration list for PBXProject "iOS_UI_Demos" */;
@@ -285,6 +345,7 @@
 				655F19BE221DA0AB00CDEF66 /* BannerDemo */,
 				655F19DA221DA80C00CDEF66 /* TestBundle */,
 				6527AA36221DCD8800144C80 /* UserDemo */,
+				65F572FE221EE80E007D7541 /* XibTableDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -332,6 +393,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		65F572FD221EE80E007D7541 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F5730C221EE810007D7541 /* LaunchScreen.storyboard in Resources */,
+				65F57316221EF0C6007D7541 /* TestCell.xib in Resources */,
+				65F57312221EE875007D7541 /* ViewController.xib in Resources */,
+				65F57309221EE810007D7541 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -369,6 +441,16 @@
 				6568008D221C9149009EEC96 /* ViewController.swift in Sources */,
 				6568008B221C9149009EEC96 /* AppDelegate.swift in Sources */,
 				656800A3221CA1BC009EEC96 /* ToolBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F572FB221EE80E007D7541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F57304221EE80E007D7541 /* ViewController.swift in Sources */,
+				65F57314221EF094007D7541 /* TestCell.swift in Sources */,
+				65F57302221EE80E007D7541 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +501,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				65680094221C914A009EEC96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		65F5730A221EE810007D7541 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65F5730B221EE810007D7541 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -690,6 +780,42 @@
 			};
 			name = Release;
 		};
+		65F5730E221EE810007D7541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Y7626TS68;
+				INFOPLIST_FILE = XibTableDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yi.XibTableDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65F5730F221EE810007D7541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Y7626TS68;
+				INFOPLIST_FILE = XibTableDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yi.XibTableDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -734,6 +860,15 @@
 			buildConfigurations = (
 				65680098221C914A009EEC96 /* Debug */,
 				65680099221C914A009EEC96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65F57310221EE810007D7541 /* Build configuration list for PBXNativeTarget "XibTableDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65F5730E221EE810007D7541 /* Debug */,
+				65F5730F221EE810007D7541 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
